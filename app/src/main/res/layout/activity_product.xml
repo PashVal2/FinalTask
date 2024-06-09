@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductActivity">
+    <ImageView
+        android:id="@+id/prod_image"
+        android:layout_width="match_parent"
+        android:minHeight="30dp"
+        android:layout_height="wrap_content">
+    </ImageView>
+    <View android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent">
+        </View>
+        <TextView android:id="@+id/descr"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </TextView>
+        <View android:layout_width="20dp"
+            android:layout_height="match_parent">
+        </View>
+    </LinearLayout>
+</LinearLayout>

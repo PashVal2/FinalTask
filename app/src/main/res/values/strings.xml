@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinalTask</string>
+    <string name="app_in_name">La Medicus</string>
+    <string name="btn_SignIn">Войти</string>
+    <string name="btn_Register">Регистрация</string>
+    <string name="drawer_close">меню-бургер</string>
+    <string name="drawer_open">закрыть меню</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
