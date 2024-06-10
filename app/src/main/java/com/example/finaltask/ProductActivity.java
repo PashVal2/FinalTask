@@ -87,7 +87,7 @@ public class ProductActivity extends AppCompatActivity {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
-    public Bitmap scaleBitmap(Bitmap bitmap) { // метод почучения bitmap по ширине девайса
+    public Bitmap scaleBitmap(Bitmap bitmap) {
         // Масштабируем изображение до ширины экрана
         return Bitmap.createScaledBitmap(bitmap, 800, 800, true);
     }
